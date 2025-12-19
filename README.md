@@ -7,7 +7,7 @@ SDL3 の一連のライブラリを CMakeLists.txt 一発で DL&ビルドした�
 ```bash
 $ cd sdl3_test_app/
 $ cmake -S . build
-$ cmake --build build
+$ cmake --build build -j
 ```
 
 ## テスト実行
@@ -55,3 +55,4 @@ vcpkgを参照する環境ではテストしてないので、オプショナル
 
 
 [無料 BGM・効果音のフリー音源素材Springin' Sound Stock](https://www.springin.org/sound-stock/category/bgm-short/)
+
