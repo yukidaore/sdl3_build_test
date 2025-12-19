@@ -1,9 +1,6 @@
 ## About
 
-SDL3 の一連のライブラリを CMakeLists.txt 一発で DL&ビルドするテストプロジェクト。
-
-SDL3+SDL_image を一括ビルドしたあとに、
-それを参照するサンプルアプリ(SDL_image の showimage サンプル)をビルドする。
+SDL3 の一連のライブラリを CMakeLists.txt 一発で DL&ビルドしたうえでサンプルプログラムから参照してビルドするテストプロジェクト。
 
 ## ビルド
 
@@ -55,5 +52,6 @@ vcpkgを参照する環境ではテストしてないので、オプショナル
 ## Copyright
 
 サンプル音声は以下のURLから取得しました。
+
 
 [無料 BGM・効果音のフリー音源素材Springin' Sound Stock](https://www.springin.org/sound-stock/category/bgm-short/)
